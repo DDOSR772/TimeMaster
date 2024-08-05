@@ -1,10 +1,8 @@
-body, button {
-  font-family: 'Courier';
+body {
+  font-family: 'Courier New', Courier, monospace;
   background-color: black;
   color: limegreen;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 #content {
@@ -17,22 +15,39 @@ body, button {
   border: 1px solid limegreen;
 }
 
-h1 {
-  text-align: center;
-  font-size: 36px;
+#timer {
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
-.faq-item {
-  margin-bottom: 20px;
-}
-
-.faq-item h2 {
+button {
   font-size: 24px;
-  color: limegreen;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.faq-item p {
-  font-size: 18px;
-  margin-top: 5px;
+button:active {
+  transform: scale(0.98);
+}
+
+#leaderboard {
+  margin-top: 30px;
+}
+
+#leaderboard h2 {
+  font-size: 36px;
+}
+
+#leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+#leaderboard ul li {
+  font-size: 24px;
+  margin: 5px 0;
 }
