@@ -1,0 +1,84 @@
+#timer {
+  width: 460px;
+  font-size: 70px;
+  background-color: black;
+  color: limegreen;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+#labels {
+  margin-top: -25px;
+  z-index: 2;
+  color: limegreen;
+  font-size: 12px;
+}
+
+#hh { margin-left: 45px; }
+#mm { margin-left: 80px; }
+#ss { margin-left: 70px; }
+#ms { margin-left: 45px; }
+
+#controls {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  float: left;
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+#go { 
+  background-color: hsl(0, 0%, 0%);
+}
+
+#go:hover { 
+  background-color: hsl(120, 61%, 30%);
+}
+
+#stop { 
+  background-color: red;  
+  display: none; 
+}
+
+#stop:hover { 
+  background-color: hsl(0, 100%, 40%);  
+  display: none; 
+}
+
+#clear { 
+  background-color: yellow; 
+  display: none;
+}
+
+#clear:hover { 
+  background-color: hsla(51, 100%, 50%, 0.76); 
+  display: none;
+}
+
+body, button {
+  font-family: 'Courier';
+  background-color: black;
+}
+
+#leaderboard {
+  width: 200px;
+  background-color: black;
+  color: limegreen;
+  padding: 25px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#leaderboardList {
+  list-style-type: none;
+  padding: 0;
+}
